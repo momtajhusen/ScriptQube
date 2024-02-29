@@ -1,7 +1,7 @@
 @extends('teplate')
 
 @section('style')
- 
+    
 @endsection
 
 @section('script')
