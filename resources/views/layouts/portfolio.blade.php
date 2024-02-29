@@ -5,9 +5,9 @@
 @endsection
 
 @section('script')
-     <h1>Hello</h1>
+ 
 @endsection
 
 @section('contents')
-     <h1>Hello</h1>
+     <h1>Portfolio</h1>
 @endsection
