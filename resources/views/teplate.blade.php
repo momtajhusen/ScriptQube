@@ -17,7 +17,6 @@
       body{
            background: #f2f2f2;
       }
- 
    </style>
 
 </head>
@@ -25,7 +24,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">SCRIPTQUBE D</a>
+          <a class="navbar-brand" href="#">SCRIPTQUBE Momtaj</a>
           <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
