@@ -19,43 +19,36 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">SCRIPTQUBE</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Align menu items to the right -->
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="{{route('home')}}">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="{{route('about')}}">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICE</a>
+                <a class="nav-link" href="{{route('service')}}">SERVICE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">PORTFOLIO</a>
+                <a class="nav-link" href="{{route('portfolio')}}">PORTFOLIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">PRICING</a>
+                <a class="nav-link" href="{{route('pricing')}}">PRICING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">PAGES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">CONTACT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">CONTACT</a>
+                <a class="nav-link" href="{{route('contact')}}">CONTACT</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-          @yield('contents')
-    <h1 class="bg-danger">Footer</h1>
+      @yield('contents')
 
     @yield('script')
 </body>
