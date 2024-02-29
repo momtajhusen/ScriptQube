@@ -2,7 +2,6 @@
 
 @section('style')
 <link rel="stylesheet" href="{{asset('assest/style/home.css')}}"> 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 @endsection
 
 @section('script')
@@ -18,8 +17,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">  
     <div class="container">
-    <div class="row">
-          <div class="col-6 text-center">
+    <div class="row">          <div class="col-6 text-center">
           <p class="h1">Welcome to Script Qube</p>     
           </div>
      </div>
