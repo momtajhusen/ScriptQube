@@ -12,6 +12,7 @@
 
     <title>Document</title>
     @yield('style')
+
 </head>
 <body>
 
