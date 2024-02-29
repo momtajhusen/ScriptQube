@@ -38,10 +38,47 @@
 </div>
   </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="{{ asset('assest/image/slider-2.png')}}" class="d-block w-25" alt="...">
+    <div class="container">
+    <div class="row">
+          <div class="col-6 text-center">
+          <p class="h1">Welcome to Script Qube</p>     
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-7 text text-script">
+          At Script Qube, we're more than just a software company
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-6">
+          <button type="button" class="btn-info read_more_btn" >Read More</button>
+          </div>
+     </div>     
+     <img src="{{ asset('assest/image/slider-2.png')}}" class="d-block w-25" alt="...">
+</div>
+   
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('assest/image/slider-3.png')}}" class="d-block w-25" alt="...">
+
+    <div class="container">
+    <div class="row">
+          <div class="col-6 text-center">
+          <p class="h1">Welcome to Script Qube</p>     
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-7 text text-script">
+          At Script Qube, we're more than just a software company
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-6">
+          <button type="button" class="btn-info read_more_btn" >Read More</button>
+          </div>
+     </div>    
+     <img src="{{ asset('assest/image/slider-3.png')}}" class="d-block w-25" alt="..."> 
+</div>
+    
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
