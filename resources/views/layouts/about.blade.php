@@ -1,12 +1,7 @@
 @extends('teplate')
 
 @section('style')
-  <style>
-     body{
-          background: #f2f2f2;
-     }
 
-  </style>
     
 @endsection
 

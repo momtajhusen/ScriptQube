@@ -13,16 +13,23 @@
     <title>Document</title>
     @yield('style')
 
+    <style>
+      body{
+           background: #f2f2f2;
+      }
+ 
+   </style>
+
 </head>
 <body>
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">SCRIPTQUBE</a>
+          <a class="navbar-brand" href="#">SCRIPTQUBE D</a>
           <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
             <!-- Align menu items to the right -->
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
