@@ -14,11 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
-    return view('index');
-=======
     return view('layouts/home');
->>>>>>> dev
 });
 Route::view('/home', 'layouts/home')->name('home');
 Route::view('/about', 'layouts/about')->name('about');
