@@ -10,13 +10,13 @@
  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="{{ asset('assest/image/school baner.jpg')}}" class="d-block w-100 col-12" alt="school baner">
+            <img src="{{ asset('asset/image/school baner.jpg')}}" class="d-block w-100 col-12" alt="school baner">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('assest/image/school baner.jpg')}}" class="d-block w-100" alt="school baner">
+            <img src="{{ asset('asset/image/school baner.jpg')}}" class="d-block w-100" alt="school baner">
           </div>
           <div class="carousel-item">
-            <img src="{{ asset('assest/image/school baner.jpg')}}" class="d-block w-100" alt="school baner">
+            <img src="{{ asset('asset/image/school baner.jpg')}}" class="d-block w-100" alt="school baner">
           </div>
         </div>
 </div>
@@ -27,7 +27,7 @@
                 <button class="btn text-white script-font-family mt-1 text-capitalize" style="font-size: 35px;">
                     Our Mission
                 </button>
-                <p class="text-white ms-3 text-justify text-capitalize script-font-family" style="font-size: 18px;">
+                <p class="text-white ms-3 text-justify text-capitalize script-font-family mobile-text-page" style="font-size: 18px;">
                     Our mission at Script Qube is simple: to empower businesses and institutions with transformative technology solutions that streamline operations, enhance productivity, and drive growth. We strive to be at the forefront of technological advancements, continuously pushing boundaries to provide our clients with the most effective tools to succeed in today's digital age.
                 </p>
             </div>
@@ -55,13 +55,13 @@
                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                               <div class="carousel-inner">
                                    <div class="carousel-item active" style="height:250px;">
-                                        <img src="{{ asset('assest/image/team-1.jpg')}}" class="d-block w-100 " alt="school-1">
+                                        <img src="{{ asset('asset/image/team-1.jpg')}}" class="d-block w-100 " alt="school-1">
                                    </div>
                                    <div class="carousel-item" style="height:250px;">
-                                        <img src="{{ asset('assest/image/team-1.jpg')}}" class="d-block w-100"  alt="schppl-2">
+                                        <img src="{{ asset('asset/image/team-1.jpg')}}" class="d-block w-100"  alt="schppl-2">
                                    </div>
                                    <div class="carousel-item" style="height:250px;">
-                                        <img src="{{ asset('assest/image/team-1.jpg')}}" class="d-block w-100 "alt="school-2">
+                                        <img src="{{ asset('asset/image/team-1.jpg')}}" class="d-block w-100 "alt="school-2">
                                    </div>
                               </div>
                          </div>
@@ -74,13 +74,13 @@
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                               <div class="carousel-inner">
                                    <div class="carousel-item active" style="height:250px;">
-                                        <img src="{{ asset('assest/image/team-1.jpg')}}" class="d-block w-100 " alt="school-1">
+                                        <img src="{{ asset('asset/image/team-1.jpg')}}" class="d-block w-100 " alt="school-1">
                                    </div>
                                    <div class="carousel-item" style="height:250px;">
-                                        <img src="{{ asset('assest/image/team-1.jpg')}}" class="d-block w-100"  alt="schppl-2">
+                                        <img src="{{ asset('asset/image/team-1.jpg')}}" class="d-block w-100"  alt="schppl-2">
                                    </div>
                                    <div class="carousel-item" style="height:250px;">
-                                        <img src="{{ asset('assest/image/team-1.jpg')}}" class="d-block w-100 "alt="school-2">
+                                        <img src="{{ asset('asset/image/team-1.jpg')}}" class="d-block w-100 "alt="school-2">
                                    </div>
                               </div>
                          </div>

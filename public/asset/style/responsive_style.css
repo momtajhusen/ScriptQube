@@ -1,0 +1,34 @@
+/* CSS for desktop or larger screens */
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 768px) {
+    /* .carousel{
+     border: 1px solid red;
+     height: 100px;
+    } */
+    .mobile-btn{
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 10px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .mobile-text-page{
+        height: auto;
+        font-size: 14px;
+        /* border: 1px solid red; */
+        /* text-align: justify; */
+    }
+    .footer_social_network{
+        height: 70px;
+        /* border: 1px solid red; */
+    }
+      .footer_social_network div{
+        height: 100%;
+        width: 100%;
+        text-align: center; 
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+  }
+  
