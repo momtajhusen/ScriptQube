@@ -214,7 +214,7 @@
        style="background-color: rgba(0, 0, 0, 0.2)"
        >
     © 2024 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/"
+    <a class="text-white" href="https://script.scriptqube.com"
        >ScriptQube.com</a
       >
   </div>
