@@ -70,6 +70,7 @@
                     <li class="nav-item "><a href="{{route('portfolio')}}" class="nav-link text-white h-100" >Portfolio</a></li>
                     <li class="nav-item "><a href="{{route('pricing')}}" class="nav-link text-white h-100" >Pricing</a></li>
                     <li class="nav-item "><a href="{{route('contact')}}"class="nav-link text-white h-100" >Contact</a></li>
+                    <li class="nav-item "><a href="https://demo.scriptqube.com/account-login"class="nav-link text-white h-100" >Demo</a></li>
                 </ul>
             </div>
             
@@ -78,6 +79,11 @@
       </div>
       @yield('contents')
 
+      @yield('footer')
+      <div class="container-fluid mt-5" style="background-color:black; height:400px">
+        
+
+      </div>
     @yield('script')
 </body>
 </html>
