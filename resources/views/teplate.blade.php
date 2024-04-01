@@ -196,7 +196,7 @@
               style="width: 60px; background-color: #7c4dff; height: 2px"
               />
           <p><i class="fas fa-home mr-3"></i>Head Office <br>Bharampura Chowk, Janakpur</p>
-          <p><i class="fas fa-home mr-3">www.scriptqube.com</i></p>
+          <p><i class="fas fa-home mr-3"><a href="https://script.scriptqube.com" class="nav-link">www.scriptqube.com</a></i></p>
           <p><i class="fas fa-envelope mr-3"></i> info@scriptqube.com</p>
           <p><i class="fas fa-phone mr-3"></i> +977-9816878592 , 9744207141</p>
         
