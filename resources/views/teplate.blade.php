@@ -19,7 +19,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
 
+<<<<<<< HEAD
     <title>ScriptQube</title>
+=======
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <title>Master</title>
+>>>>>>> 2447c85bec2f9d39d81326a69d07aabfbf1dd5b9
     @yield('style')
 
     <style>
@@ -48,6 +57,7 @@
 <body>
 <div class="jumbotron bg-blue">
         <div class="container-fluid">
+<<<<<<< HEAD
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand text-white ms-2 " style="font-size: 40px; font-weight: 500;" href="{{route('home')}}">ScriptQube</a>
             <div class="me-1 pe-3">
@@ -71,6 +81,38 @@
         </nav>
       </div>
       </div>
+=======
+          <a class="navbar-brand" href="#">SCRIPTQUBE Master</a>
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+            <!-- Align menu items to the right -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="{{route('home')}}">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{route('about')}}">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{route('service')}}">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{route('portfolio')}}">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{route('pricing')}}">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{route('contact')}}">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+>>>>>>> 2447c85bec2f9d39d81326a69d07aabfbf1dd5b9
       @yield('contents')
 
     @yield('script')
